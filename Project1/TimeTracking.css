@@ -1,0 +1,134 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    font-family : 'Poppins', sans-serif;
+}
+body{
+    background: #0d1323;
+}
+.container{
+    width: 60vw;
+    height: 70vh;
+    margin:15vh 20vw ;
+    background: transparent;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+.slide{
+    border-radius: 10px;
+}
+.sidebar{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+.pic{
+    background: url("./images/image-jeremy.png");
+    background-position: center;
+    background-size: cover;
+    height: 40%;
+    width: 60%;
+    border: white solid 5px;
+    border-radius: 50%;
+}
+
+.tile{
+    background: #3d5285;
+    border-radius: 10px;
+    gap: 20px;
+}
+.profile{
+    z-index: 1;
+    background: #5746ea;
+    padding: 30px;
+}
+.profile h3{
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    margin-top: 50px;
+}
+.name{
+    color: white;
+    font-size: 50px;
+}
+.time{
+    z-index: -1;
+    margin-top: -20px;
+    background: #1d204b;
+    padding: 30px;
+}
+.timediv{
+    margin-top: 40px;
+}
+.timediv h3{
+    color: rgba(255, 255, 255, 0.5);
+    margin: 30px 0;
+}
+.timediv .exception{
+    color: white;
+}
+
+.rightbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.cards{
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+.board{
+    border-radius: 10px;
+    display:grid ;
+    grid-template-rows: 1fr 2fr;
+}
+.color  {
+    border-radius: 10px;
+}
+.layer{
+    background: #1d204b;
+    border-radius: 10px;
+    display: grid;
+    margin-top: -20px;
+    padding: 30px;
+
+}
+.flexedtitle{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 7rem;
+}
+.layername{
+    color: white;
+    font-size: 20px;
+}
+.c1{
+    background: #ff8b64;
+}
+.c2{
+    background:#56c2e6 ;
+}
+.c3{
+    background:#ff5e7d ;
+}
+.c4{
+    background:#4bcf83 ;
+}
+.c5{
+    background: #6f34cc;
+}
+.c6{ 
+    background:#ecc359 ;
+}
+.hours h1{
+    color: white;
+    font-size: 60px;
+}
+.allocation p{
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+}
