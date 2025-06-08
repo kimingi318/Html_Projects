@@ -16,20 +16,41 @@
         <img src="./assets/images/logo.svg" alt="extensions" class="logo">
       </div>
       <div class="light" onclick="toggleMode()">
-         <img src="./assets/images/icon-sun.svg" alt="light mode" id="lightmode">
+         <img src="./assets/images/icon-sun.svg" alt="light mode" class="icon" id="light">
+         <img src="./assets/images/icon-moon.svg" alt="dark mode" class="icon" id="dark">
         </div>
     </div>
     <div class="filterdiv">
       <h1>Extension List</h1>
       <div class="btns">
-        <button class="btn all" >All</button>
-        <button class="btn">Active</button>
+        <button id="allitems" class="btn all" >All</button>
+        <button id="active" class="btn">Active</button>
         <button class="btn">Inactive</button>
       </div>
     </div>
     <div class="extensionlist" id="extensionlist">
       <div class="card" id="card"></div>
     </div>
+  </div>
+  <div class="radiobtn">
+    <label for="very well implemented">
+      <input type="radio" name="rating" value="very well implemented" id="verywellimplemented">
+    </label>
+    <label for="well implemented">
+      <input type="radio" name="rating" value="well implemented" id="wellimplemented">
+    </label>
+    <label for="not well implemented">
+      <input type="radio" name="rating" value="not well implemented" id="notwellimplemented">
+    </label>
+    <label for="not implemented">
+      <input type="radio" name="rating" value="not implemented" id="notimplemented">
+    </label>
+  </div>
+  <div>
+    <button id="submit">Submit</button>
+  </div>
+  <div id="output">
+    
   </div>
   <script src="script" ></script>
 </body>
